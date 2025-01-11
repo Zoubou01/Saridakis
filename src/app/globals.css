@@ -1,0 +1,285 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --border-radius: var(--mui-shape-borderRadius);
+  --border-color: var(--mui-palette-divider);
+  --primary-color: #242323;
+  --background-color: var(--mui-palette-background-default);
+  --background-color-rgb: var(--mui-palette-background-paperChannel);
+  --header-height: 54px;
+  --header-z-index: var(--mui-zIndex-appBar);
+  --footer-z-index: 10;
+  --customizer-z-index: var(--mui-zIndex-drawer);
+  --search-z-index: var(--mui-zIndex-tooltip);
+  --drawer-z-index: var(--mui-zIndex-drawer);
+  --backdrop-color: rgb(var(--mui-mainColorChannels-light) / 0.5);
+  --mui-mainColorChannels-shadow: var(--mui-mainColorChannels-lightShadow);
+}
+
+[data-mui-color-scheme='dark'] {
+  --backdrop-color: rgb(23 25 37 / 0.6);
+  --mui-mainColorChannels-shadow: var(--mui-mainColorChannels-darkShadow);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+  border-style: solid;
+  border-color: theme('borderColor.DEFAULT', currentColor);
+}
+
+html {
+  display: flex;
+  inline-size: 100%;
+  min-block-size: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul:not([class]) {
+  margin-block: 1rem;
+  padding-inline-start: 40px;
+}
+
+@media (max-width: 1440px) {
+  .text-auto {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 759px) {
+  .text-auto {
+    font-size: 3rem;
+  }
+}
+
+/*! Do not remove the following styles */
+/*
+  Fix the popout / submenu closing issue when using hover trigger to open the menu and using
+  perfectscrollbar where the bridge create with safe polygon by floating ui was not working
+*/
+[data-floating-ui-safe-polygon] .scrollbar-container {
+  pointer-events: auto;
+}
+[data-floating-ui-safe-polygon] .scrollbar-container .ps__rail-y {
+  pointer-events: none;
+}
+
+.no-hover:hover {
+  background-color: transparent !important;
+}
+
+body {
+  background-color: #000000;
+}
+
+@media (max-width: 594px) {
+  .not-for-phone {
+    display: none;
+  }
+}
+@media (min-width: 594px) {
+  .not-for-screen {
+    display: none !important;
+  }
+}
+
+.ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.phone-menu {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: #242323;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.phone-menu-btn:hover > h5 {
+  color: #ba2f2f !important;
+}
+.active {
+  color: #9e2e2e !important;
+}
+.not-active {
+  color: #e1def5e6 !important;
+}
+.phone-menu-btn:hover {
+  background-color: #242323 !important;
+}
+.phone-menu-btn:active {
+  background-color: unset !important;
+  color: #ba2f2f !important;
+  box-shadow: none !important;
+}
+.phone-menu-btn:target {
+  background-color: unset !important;
+  color: #ba2f2f !important;
+  box-shadow: none !important;
+}
+.phone-menu-btn:focus {
+  background-color: unset !important;
+  color: transparent !important;
+  box-shadow: none !important;
+}
+.phone-menu-btn:visited {
+  background-color: unset !important;
+  color: #ba2f2f !important;
+  box-shadow: none !important;
+}
+
+.scroll-to-top:hover {
+  background-color: #ba2f2f !important;
+}
+.scroll-to-top:hover > i {
+  color: white !important;
+}
+.custom-tab:hover {
+  background-color: transparent !important;
+  color: #9e2e2e !important;
+  box-shadow: none !important;
+}
+
+.custom-tab:target {
+  background-color: transparent !important;
+  color: #9e2e2e !important;
+  box-shadow: none !important;
+}
+
+.custom-tab:active {
+  background-color: transparent !important;
+  color: #9e2e2e !important;
+  box-shadow: none !important;
+}
+
+.custom-tab:focus-visible {
+  background-color: transparent !important;
+  color: #9e2e2e !important;
+  box-shadow: none !important;
+}
+
+.custom-tab:focus-within {
+  background-color: transparent !important;
+  color: #9e2e2e !important;
+  box-shadow: none !important;
+}
+
+.custom-tab:focus {
+  background-color: transparent !important;
+  color: #9e2e2e !important;
+  box-shadow: none !important;
+}
+
+.custom-tab:visited {
+  background-color: transparent !important;
+  color: #aea7a3 !important;
+  box-shadow: none !important;
+}
+.Mui-selected {
+  background-color: transparent !important;
+  color: #aea7a3 !important;
+  box-shadow: none !important;
+}
+.custom-tab:visited {
+  background-color: transparent !important;
+  color: #aea7a3 !important;
+  box-shadow: none !important;
+}
+.custom-tab {
+  background-color: transparent !important;
+  color: #e1def5e6 !important;
+  box-shadow: none !important;
+}
+
+.custom-tab:active {
+  background-color: transparent !important;
+  color: #ba2f2f !important;
+  box-shadow: none !important;
+}
+.ps__rail-y {
+  inset-inline-end: 0 !important;
+  inset-inline-start: auto !important;
+  & .ps__thumb-y {
+    inset-inline-end: 3px !important;
+    inset-inline-start: auto !important;
+    background-color: var(--mui-palette-divider);
+    inline-size: 6px;
+    &:hover,
+    &:focus,
+    &.ps--clicking {
+      background-color: var(--mui-palette-action-disabled) !important;
+    }
+  }
+  &:hover,
+  &:focus,
+  &.ps--clicking {
+    background-color: var(--mui-palette-action-hover) !important;
+  }
+  &:hover,
+  &:focus,
+  &.ps--clicking {
+    .ps__thumb-y {
+      background-color: var(--mui-palette-action-disabled) !important;
+    }
+  }
+}
+
+.ts-vertical-nav-root {
+  .ps__thumb-y {
+    inline-size: 4px;
+    &:hover,
+    &:focus,
+    &.ps--clicking {
+      inline-size: 6px;
+    }
+  }
+  .ps__rail-y {
+    inline-size: 10px;
+    &:hover,
+    &:focus,
+    &.ps--clicking {
+      background-color: transparent !important;
+      .ps__thumb-y {
+        inline-size: 6px;
+      }
+    }
+  }
+}
+
+:where([class^='tabler-']) {
+  font-size: 1.5rem;
+}
+
+/* Fix width issue for the input-otp component */
+input[autocomplete='one-time-code'][data-input-otp='true'] {
+  inline-size: 100% !important;
+}
+
+code {
+  font-family: inherit;
+  padding-block: 2px;
+  padding-inline: 4px;
+  border-radius: 4px;
+  font-size: 90%;
+  color: var(--mui-palette-info-main);
+  background-color: rgb(var(--mui-palette-info-mainChannel) / 0.08);
+  border: 0;
+}
