@@ -43,10 +43,10 @@ const ProfessionalExperience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <Typography className='font-medium' sx={{ color: '#e1def5e6' }}>
-                Real Estate Agent @ Saridakis Real Estate
+                Digital Marketing @ Saridakis Real Estate
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
-                Mar 2022 - Apr 2023
+                Feb 2021 - Mar 2022
               </Typography>
             </TimelineContent>
           </TimelineItem>
@@ -60,7 +60,7 @@ const ProfessionalExperience = () => {
                 HR assistant @ Saridakis Insurance Broker
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
-                Mar 2019 - Feb 2022
+                Mar 2019 - Feb 2021
               </Typography>
             </TimelineContent>
           </TimelineItem>
