@@ -48,7 +48,7 @@ const UserDetails = () => {
                 <Typography variant='h5' color={'#e1def5e6'}>
                   Grecotel Marine Palace & Aqua Park
                 </Typography>
-                <Typography color={'#e1def5e6'}>Front Office Agent</Typography>
+                <Typography color={'#e1def5e6'}>HR Assistant</Typography>
               </div>
             </div>
           </div>

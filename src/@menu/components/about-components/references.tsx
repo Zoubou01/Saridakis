@@ -107,18 +107,18 @@ I have no doubt that Kosmas Saridakis will continue to excel in any endeavor the
                 <Typography variant='h5'>Stratidakis Manolis</Typography>
                 <Typography variant='h5'>Ceo & Founder of Grecotel</Typography>
                 <Typography variant='body1'>
-                I am pleased to write this letter of recommendation for Kosmas Saridakis, who worked as a Front Office Agent at Grecotel from 04/2024 to 12/2024. During this period, Kosmas Saridakis demonstrated outstanding professionalism, exceptional guest service, and a strong work ethic that contributed significantly to the success of our hotel.
+                I am pleased to write this letter of recommendation for Kosmas Saridakis, who worked as a HR Assistant at Grecotel from 04/2024 to 12/2024. During this period, Kosmas Saridakis demonstrated outstanding professionalism, exceptional guest service, and a strong work ethic that contributed significantly to the success of our hotel.
 
-As a Front Office Agent, Kosmas Saridakis was responsible for managing guest check-ins and check-outs, handling reservations, answering inquiries, and ensuring that each guest had a memorable stay. He consistently exceeded expectations in all these areas, handling even the most complex situations with ease and grace. Kosmas Saridakis was always proactive, anticipating guest needs and ensuring that any issues were resolved quickly and efficiently.
+As a HR Assistant, Kosmas Saridakis was responsible for managing guest check-ins and check-outs, handling reservations, answering inquiries, and ensuring that each guest had a memorable stay. He consistently exceeded expectations in all these areas, handling even the most complex situations with ease and grace. Kosmas Saridakis was always proactive, anticipating guest needs and ensuring that any issues were resolved quickly and efficiently.
 
-Kosmas Saridakis has a keen attention to detail, a warm and approachable demeanor, and the ability to handle stressful situations calmly. He worked collaboratively with other departments to ensure the smooth operation of the hotel, often going above and beyond to make guests feel welcome and valued. [His/Her/Their] dedication to delivering an exceptional guest experience was evident in the positive feedback we received from guests on a regular basis.
+Kosmas Saridakis has a keen attention to detail, a warm and approachable demeanor, and the ability to handle stressful situations calmly. He worked collaboratively with other departments to ensure the smooth operation of the hotel, often going above and beyond to make guests feel welcome and valued. His dedication to delivering an exceptional guest experience was evident in the positive feedback we received from guests on a regular basis.
 
-In addition to his technical skills, Kosmas Saridakis displayed excellent communication and problem-solving abilities, which are essential in a front-line position. He also showed a strong sense of responsibility and leadership, often taking initiative in assisting colleagues and ensuring the front office ran efficiently during peak periods.
+In addition to his technical skills, Kosmas Saridakis displayed excellent communication and problem-solving abilities, which are essential in a front-line position. He also showed a strong sense of responsibility and leadership, often taking initiative in assisting colleagues and ensuring the HR department ran efficiently during peak periods.
 
 I have no doubt that Kosmas Saridakis will bring the same level of professionalism, dedication, and positive attitude to any future role. I wholeheartedly recommend him for any opportunity and am confident that He will be an asset to any organization.
                 </Typography>
                 <Typography marginTop={5} variant='body1'>
-                  Sincerely, Vasilis Iliakis.
+                  Sincerely, Stratidakis Manolis.
                 </Typography>
               </CardContent>
             </Card>

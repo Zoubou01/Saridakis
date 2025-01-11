@@ -5,7 +5,7 @@ const PortfolioSection = () => {
     <>
       <Grid container display={'flex'} flexDirection={'row'} justifyContent={'center'}>
         <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
-          <a href='https://travel-buddy-pearl.vercel.app/'>
+          <a href='https://saridakisins.gr/?fbclid=IwZXh0bgNhZW0CMTAAAR2SfP4ssiotgK_cnqnR89feoj7wAkqhSWXEBA2cgpRIkvFXYpvDy28jMlI_aem_4zxfIBFa5bQ7PyPwWkr7Jw'>
             <Card sx={{ backgroundColor: 'transparent' }}>
               <img
                 style={{
@@ -13,17 +13,15 @@ const PortfolioSection = () => {
                   height: '250px',
                   borderRadius: '20px'
                 }}
-                src='/images/avatars/airplane.png'
+                src='/images/portfolio/sarA.jpg'
               />
-              <Typography variant='h5'>Ai Travel Buddy</Typography>
-              <Typography variant='subtitle1' className='mbe-2'>
-                React, NextJS, Typescript, Ai
-              </Typography>
+              <Typography variant='h5'>Saridakis Insurance</Typography>
+              
             </Card>
           </a>
         </Grid>
         <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
-          <a href='https://console.loggia.gr/el/home'>
+          <a href='https://www.saridakisrealestate.gr/?fbclid=IwZXh0bgNhZW0CMTAAAR08aaFG5rXUtJ7QCsGXBzCfZ4JSMYTVLYmvgF5EMFTy3jn4sRoxI0Q0Dl0_aem_7W-6s6wRKyQy6vzbTM2hRQ'>
             <Card sx={{ backgroundColor: 'transparent' }}>
               <img
                 style={{
@@ -31,125 +29,10 @@ const PortfolioSection = () => {
                   height: '250px',
                   borderRadius: '20px'
                 }}
-                src='/images/portfolio/pms.png'
+                src='/images/portfolio/sarB.jpg'
               />
-              <Typography variant='h5'>Property Managment System (Maintained)</Typography>
-              <Typography variant='subtitle1' className='mbe-2'>
-                React, Next, PHP, Angular, Javascript, Typescript, Redux
-              </Typography>
-            </Card>
-          </a>
-        </Grid>
-        <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
-          <a href='https://www.istorm.gr/?utm_campaign=Search_Brand_iStorm+%23Ongoing&gad_source=1&gclid=CjwKCAjw-JG5BhBZEiwAt7JR67oPivjFRCLducuF2ZPHMP9P4rief53uhFbh8SkWhtlLRyE72ZDiyBoCm5YQAvD_BwE'>
-            <Card sx={{ backgroundColor: 'transparent' }}>
-              <img
-                style={{
-                  width: '100%',
-                  height: '250px',
-                  borderRadius: '20px'
-                }}
-                src='/images/portfolio/istorm.png'
-              />
-              <Typography variant='h5' marginBottom={0}>
-                iStorm ecommerce website (Maintained)
-              </Typography>
-              <Typography variant='subtitle1' className='mbe-2'>
-                Magento, Javascript, PHP
-              </Typography>
-            </Card>
-          </a>
-        </Grid>
-        <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
-          <a href='https://partners.isquare.gr/customer/account/login'>
-            <Card sx={{ backgroundColor: 'transparent' }}>
-              <img
-                style={{
-                  width: '100%',
-                  height: '250px',
-                  borderRadius: '20px'
-                }}
-                src='/images/portfolio/isquare.png'
-              />
-              <Typography variant='h5'>iSquare ecommerce website (Maintained)</Typography>
-              <Typography variant='subtitle1' className='mbe-2'>
-                Magento, Javascript, PHP
-              </Typography>
-            </Card>
-          </a>
-        </Grid>
-
-        <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
-          <a href='https://calculator-iphone-theta.vercel.app/'>
-            <Card sx={{ backgroundColor: 'transparent' }}>
-              <img
-                style={{
-                  width: '100%',
-                  height: '250px',
-                  borderRadius: '20px'
-                }}
-                src='/images/avatars/calc.png'
-              />
-              <Typography variant='h5'>Ai iPhone Calculator Clone</Typography>
-              <Typography variant='subtitle1' className='mbe-2'>
-                NextJS, Typescript, Ai
-              </Typography>
-            </Card>
-          </a>
-        </Grid>
-
-        <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
-          <a href='https://card-game-blue-psi.vercel.app/'>
-            <Card sx={{ backgroundColor: 'transparent' }}>
-              <img
-                style={{
-                  width: '100%',
-                  height: '250px',
-                  borderRadius: '20px'
-                }}
-                src='/images/avatars/pokemon.jpg'
-              />
-              <Typography variant='h5'>Pokemon Memory Game</Typography>
-              <Typography variant='subtitle1' className='mbe-2'>
-                NextJS, Typescript, React
-              </Typography>
-            </Card>
-          </a>
-        </Grid>
-
-        <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
-          <a href='https://github.com/Zoubou01/dark-souls-next-app'>
-            <Card sx={{ backgroundColor: 'transparent' }}>
-              <img
-                style={{
-                  width: '100%',
-                  height: '250px',
-                  borderRadius: '20px'
-                }}
-                src='/images/portfolio/movies1.jpg'
-              />
-              <Typography variant='h5'>Movie App</Typography>
-              <Typography variant='subtitle1' className='mbe-2'>
-                React, Typescript, NextJS, Redux
-              </Typography>
-            </Card>
-          </a>
-        </Grid>
-        <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
-          <a href='https://www.acscourier.net/'>
-            <Card sx={{ backgroundColor: 'transparent' }}>
-              <img
-                style={{
-                  width: '100%',
-                  height: '250px',
-                  borderRadius: '20px'
-                }}
-                src='/images/portfolio/acs.png'
-              />
-              <Typography variant='h5'>ACS Website + App (Maintained)</Typography>
-              <Typography variant='subtitle1' className='mbe-2'>
-                Java, Android Studio
-              </Typography>
+              <Typography variant='h5'>Saridakis Real Estate</Typography>
+              
             </Card>
           </a>
         </Grid>

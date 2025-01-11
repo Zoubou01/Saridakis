@@ -53,7 +53,7 @@ const WhatIAmDoing = () => {
               <Grid container>
                 <Grid item xs={2}></Grid>
                 <Grid item xs={9}>
-                  <Typography color='text.secondary'>Connected conversations, audience engagement, seamless communication.</Typography>
+                  <Typography color='text.secondary'>Audience engagement, seamless communication.</Typography>
                 </Grid>
               </Grid>
             </CardContent>
