@@ -12,8 +12,8 @@ import '@assets/iconify-icons/generated-icons.css'
 import ReduxProvider from '@/store/redux-provider'
 
 export const metadata = {
-  title: 'Giannis Zouboulakis',
-  description: 'Giannis Zouboulakis Portfolio'
+  title: 'Kosmas Saridakis',
+  description: 'Kosmas Saridakis Portfolio'
 }
 
 const RootLayout = ({ children }: ChildrenType) => {
